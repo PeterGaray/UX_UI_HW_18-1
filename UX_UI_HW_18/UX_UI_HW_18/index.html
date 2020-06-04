@@ -10,14 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Gudea&family=Jost&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navigation">
-        <div class="logobold">KELSEY</div>
-        <div class="logo">DAVIS</div>
-        <div class="nav">
-                <p class="currentpage">WORK</p>
-                <p>ABOUT</p>
-                <p>RESUME</p>  
+    <header class="navigation"> <!-- this is the navigation -->
+        <div class="left">
+            <div class="logobold">KELSEY</div>
+            <div class="logo">DAVIS</div>
         </div>
+            <div class="right">
+                <ul> <!-- this is list of items on the right side -->
+                    <li class="nav">WORK</li>
+                    <li class="nav">ABOUT</li>
+                    <li class="nav">RESUME</li> 
+                </ul> 
+            </div>
     </header>
     <section class="heroImg">
     <div class="content">
@@ -31,11 +35,12 @@
         <div class="FeaturedWorkSection">
             <img src="images/PC3.png" id="PC">
             <h1>Responsive Redesign of Non-Profit's Online Donation Process</h1>
-            <h5>RESPONSIVE WEB DESIGN</h5>
+            <h5 class="myheader">RESPONSIVE WEB DESIGN</h5>
             <p>Responsive redesign of non-profit organization's website, focusing on increasing individual donations.</p>
             <button class="button2">View Case Study</button>
         </div>
     </section>
+    
     <section>
         <div class="CaseStudySection">
             <div class="CaseStudies">
@@ -66,9 +71,9 @@
     <div class="container">
         <button class="email">Email</button>
        <div class="icons">
-       <img src="images/Linkedin.png">
-       <img src="images/Behance.png">
-       <img src="images/Dribbble.png">
+           <img class="myicon" src="images/Linkedin.png" width="30">
+           <img class="myicon" src="images/Behance.png" width="30">
+           <img class="myicon" src="images/Dribbble.png" width="30">
        </div>
     </div>
     </footer>
